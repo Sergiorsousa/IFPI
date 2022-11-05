@@ -1,25 +1,39 @@
-container {
-width:500px;
+th{
+	border: 1px solid black;
+	background: #b2beff;
+	padding: 10px;
 }
-cabecalho { background-color:#ccc;
+td{
+	border: 1px solid black;
+	padding: 10px;
 }
-	
-h1 {margin-bottom:0;
+table{
+	border-collapse: collapse;
+	width: 400px;
+
 }
 
-menu { background-color:#ddd;
-	height:200px;
-	width:100px;
-	float:left;
+.impar{
+	background-color: #C1CDC1;
+
 }
-	
-conteudo {background-color:#EEE;
-	height:200px;
-	width:400px;
-	float:left;
+
+.par{
+	background-color: #E0EEE0;
 }
-	
-rodape {background-color:#ccc;
-	clear:both;
-	text-align:center;
-	}	
+
+.total{
+	background-color: #EEE0E5;
+}
+
+#container{
+	width: 500px;
+	position: absolute;
+	left: 400px;
+	right: 400px;
+	border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: gray;
+}

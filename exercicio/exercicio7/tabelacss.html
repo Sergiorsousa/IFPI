@@ -3,62 +3,42 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Exemplo Tabela Com CSS</title>
+	<title>Tabela com css</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style type="text/css">
-	table{
-		font-family: verdana, geneva, arial, helvetica;
-		font-size: 10pt;
-		text-align: center;
-		padding-left: 4px ;
-		border: 1px solid black;
-		border-collapse: collapse;
-	}
-	td {
-		border:  1px solid black;
+<body>
+	<div id="container">
 
-	}
-	th {
-		border:  1px solid black;
-		background-color: #b2beff;
-	}
-#linhaimpar {
-	background-color: #C1CDC1;
-}
+	<h1>Prática Tabela com CSS</h1>
 
-#linhapar {
-	background-color: #E0EEE0;
-}
 
-#linhatotal {
-	background-color: #EEE0E5;
-}
-</style>
-<table>
-<tr>
-	<th>Loja</th>
-	<th>Janeiro</th>
-	<th>Fevereiro</th>
-</tr>
-<tr id="linhaimpar"> 
-	<td>Filial 1</td>
-	<td>120</td>
-	<td>320</td>
+	<table align="center">
+		
+		<th>loja</th>
+		<th>janeiro</th>
+		<th>fevereiro</th>
 
-</tr>
+		<tr class="impar">
+			<td>filial 01</td>
+			<td>120</td>
+			<td>320</td>
+		</tr>
 
-<tr id="linhapar">
-	<td>Filial 2</td>
-	<td>120</td>
-	<td>120</td>
+		<tr class="par">
+			<td>filial 02</td>
+			<td>120</td>
+			<td>120</td>
+		</tr>
 
-</tr>
+		<tr class="total">
+			<td>total</td>
+			<td>240</td>
+			<td>440</td>
+		</tr>
 
-<tr id="linhatotal">
-	<td>Total</td>
-	<td>240</td>
-	<td>440</td>
+	</table>
+	
+</div>
 
-</tr>
-</table>
+</body>
 </html>
