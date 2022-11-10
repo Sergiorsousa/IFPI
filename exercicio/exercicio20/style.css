@@ -1,0 +1,82 @@
+body {
+	margin: 100px;
+}
+
+#quadrado {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin: 10px;
+	
+}
+
+.verde {
+	background: green;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 60px 130px 0px 130px;
+
+}
+.vermelha {
+	background: red;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 130px 60px 130px 0px;
+}
+.amarela {
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 130px 0px 130px 60px;
+}
+.roxo {
+	background: blue;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 0px 130px 60px 130px;
+}
+
+
+#imagem2 {
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+
+.verde2 {
+	background: green;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 200px 0px 0px 0px;
+
+}
+.vermelha2 {
+	background: red;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 0px 200px 0px 0px;
+}
+.amarela2 {
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 0px 0px 0px 200px;
+}
+.roxo2 {
+	background: blue;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border-radius: 0px 0px 200px 0px;
+}
+

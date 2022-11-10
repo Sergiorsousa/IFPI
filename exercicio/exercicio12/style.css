@@ -1,0 +1,34 @@
+body {
+	background: #61bdc8;
+}
+
+#conteudo {
+	background: #ffffff;
+	padding: 10px;
+	width: 900px;
+	margin: 30px auto;
+}
+
+.caixa {
+	background: blue;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	color: #ffffff;
+}
+
+#relativo {
+	position: relative;
+	left: 30px;
+}
+
+#absoluto {
+	position: absolute;
+	left: 30px;
+}
+
+#fixo {
+	position: fixed;
+	left: 400px;
+	top: 0px;
+}

@@ -1,0 +1,50 @@
+body {
+	width: 800px;
+	border: 1px solid black;
+	float: left;
+}
+
+ .h3 {
+ 	color: white;
+ 	text-align: center;
+ 	align-items: center;
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+ #MainMenu {
+	background: tomato;
+	height: 40px;
+}
+
+#Header {
+	background: #836FFF;
+	height: 120px;
+}
+
+#Content {
+	background: #32CD32;
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+
+#SiteBar {
+	background: #6B8E23;
+	width: 300px;
+	height: 500px;
+	float: right;
+}
+
+#Footer {
+
+	background: #DAA520;
+	width: 800px;
+	height: 40px;
+	bottom: -500px;
+	color: white;
+	float: left;
+}
+
+
+

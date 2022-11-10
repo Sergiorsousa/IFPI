@@ -1,0 +1,26 @@
+.Menu {
+	background: #eee685;
+	font-family: "trebuchet MS", helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+a:link { /* não visitado*/
+	color: #b9c941;
+	text-decoration: none;
+}
+a:visited { /* visitado */
+	color: #458b00;
+}
+a:hover{ /* passar o mouse */
+	color: #8b4726;
+	background: red;
+}
+a:active {
+	color: #ff1493;
+}
+
+nav {
+	background: yellow;
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+}
