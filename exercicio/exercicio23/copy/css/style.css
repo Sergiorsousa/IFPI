@@ -1,0 +1,320 @@
+#container {
+	background: linear-gradient( to bottom, LightBlue, DarkBlue);
+	width: 1300px;
+	height: 2400px;
+	float: left;
+}
+
+
+	
+nav a {
+	text-decoration: none;
+	margin: 10px;
+	float: right;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	color: white;
+}
+nav a:hover{
+	background: blue;
+	color: black;
+	border-radius: 10px;
+	font-size: 30px;
+}
+
+a:link {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+ 
+fieldset {
+	background:url(../imagens/imagem2.jpg);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 25px;
+
+}
+.botao {
+	font-size: 20px;
+	margin: 20px;
+}
+
+.botao:hover{
+	background: green;
+	font-size: 30px;
+
+}
+.data {
+	position: relative;
+	top: 95px;
+	color: black;
+	margin-left: 10px;
+}
+
+.titulo {
+	background: rgba(0, 0, 0, 0.7);
+	text-shadow: 3px 3px 3px purple;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	top: 5px;
+	font-size: 50px;
+	height: 80px;
+	font-family: helvetica;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.titulo span {
+	position: relative;
+	top: 25px;
+	color: red;
+	animation: brilho 2s ease-in-out infinite;
+}
+
+.imglateral img{
+	width: 400px;
+	height: 250px;
+}
+
+.perfil p{
+	text-align: justify;
+	padding: 10px;
+}
+
+.perfil .rodapesections p{
+	position: relative;
+	bottom: 50px;
+}
+
+#rodapeprincipal p{
+	position: relative;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+
+.perfil .dia {
+	position: relative;
+	right: 10px;
+}
+
+#for form {
+	font-size: 21px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid black;
+	box-shadow: 12px 12px 12px gray;
+	width: 600px;
+	box-sizing: border-box;
+	float: left;
+}
+#for input{
+	
+}
+
+
+.titulo span:nth-of-type(8){
+	animation-name: 0.175s;
+}
+
+@keyframes brilho{
+
+	0%{
+		color: #fff;
+		text-shadow: 0 0 12px purple;
+		text-shadow: 0 0 50px purple;
+		text-shadow: 0 0 100px purple;
+
+
+	}
+
+	10%, 90%{
+		color: red;
+		text-shadow: none;
+
+	}
+
+article section p {
+	color: black;
+	font-size: 18px;
+}
+ 
+.dia {
+	position: relative;
+	color: red;
+	top: 5px;
+	right: -380px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+
+fieldset a:hover{
+	background: blue;
+	font-size: 30px;
+}
+fieldset a{
+	text-decoration: none;
+}
+
+
+.rodapesections {
+	color: red;
+	position: relative;
+	float: right;
+	bottom: 10px;
+	padding: 5px;
+}
+
+.rodapesections p {
+	color: red;
+}
+
+#rodapeprincipal {
+	height: 50px;
+	background: black;
+	bottom: -1150px;
+	position: relative;
+	color: white;
+	text-align: center;
+	
+}
+
+
+
+.titulo span:nth-of-type(2){
+	animation-name: 0.25s;
+}
+
+.titulo span:nth-of-type(3){
+	animation-name: 0.50s;
+}
+
+.titulo span:nth-of-type(4){
+	animation-name: 0.75s;
+}
+
+.titulo span:nth-of-type(5){
+	animation-name: 0.100s;
+}
+
+.titulo span:nth-of-type(6){
+	animation-name: 0.125s;
+}
+
+.titulo span:nth-of-type(7){
+	animation-name: 0.150s;
+}
+
+#menu {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 24px;
+	text-decoration: none;
+	width: 1300px;
+	height: 100px;
+	box-sizing: border-box ;
+	padding: 10px;
+	top: 5px;
+	z-index: 10;
+
+
+}
+.pri {
+	position: relative;
+	float: left;
+	color: blue;
+	font-size: 50px;
+	font-family: helvetica;
+	text-shadow: 2px 2px white;
+	top: -30px;
+}
+
+.seg {
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 50px;
+	font-family: helvetica;
+	text-shadow: 2px 2px blue;
+	top: -30px;
+}
+
+
+.logo {
+	margin: 10px;
+}
+
+
+article section{
+	background:url(../imagens/imagem2.jpg);
+	width: 600px;
+	height: 200px;
+	box-shadow: 10px 10px 10px black;
+	float: right;
+	top: 100px;
+	margin: 15px;
+	position: relative;
+	top: 110px;
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 10px;
+	line-height: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+
+
+ img {
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	float: left;
+	margin: 10px;
+}
+
+
+.login {
+	position: relative;
+	float: right;
+	width: 510px;
+	height: 340px;
+	top: -425px;
+	background: white;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 10px black;
+	float: right;
+	margin: 30px;
+	bottom: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.login input:hover{
+	height: 35px;
+	width: 300px;
+}
+
+.perfil {
+	width: 510px;
+	height: 640px;
+	background: white;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 10px black;
+	float: right;
+	position: relative;
+	margin: 30px;
+	bottom: 450px;
+	border-radius: 10px;
+}
+
+
+.form-group {
+	flex-direction: column;
+}
