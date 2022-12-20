@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notas Fiscais</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cardbar">
+            <button type="button" class="btn btn-secondary"
+            data-bs-toggle="popover" 
+            title="Veja os pedidos"
+            data-bs-content="Espaço de edição"
+            data-bs-placement="right"
+            data-bs-trigger="focus"
+        >
+                Pedidos Recentes
+        </button>
+        <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" 
+        title="Veja os pedidos"
+        data-bs-content="Espaço de edição"
+        data-bs-placement="right"
+        data-bs-trigger="focus"
+    >
+            Enviar Cliente
+        </button>
+        <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" 
+        title="Veja os pedidos"
+        data-bs-content="Espaço de edição"
+        data-bs-placement="right"
+        data-bs-trigger="focus"
+    >
+            Receber Pagamento
+        </button>
+        <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" 
+        title="Veja os pedidos"
+        data-bs-content="Espaço de edição"
+        data-bs-placement="right"
+        data-bs-trigger="focus"
+    >
+            Todos os Pedidos
+        </button>
+        <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" 
+        data-bs-toggle="tooltip"
+        title="Veja os pedidos"
+        data-bs-content="Espaço de edição"
+        data-bs-placement="right"
+        data-bs-trigger="focus"
+    >
+            Novo pedido
+        </button>
+        <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" 
+        title="Veja os pedidos"
+        data-bs-content="Espaço de edição"
+        data-bs-placement="right"
+        data-bs-trigger="focus"
+    >
+            Página Principal
+        </button>
+        </div>
+        <div classname="text">
+            <p>Pesquisa de Produtos</p>
+        </div>
+        
+        </div>
+        <div class="lista">
+            <table class="table table-striped">
+                ...
+              </table>
+        </div>
+
+        <div class="container_form">
+
+            <h1>Formulário de Cadastro</h1>
+
+            <form class="form" action="#" method="post">
+                
+                <div class="form_grupo">
+                    <label for="nome" class="form_label">Nome</label>
+                    <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="e-mail" class="form_label">Email</label>
+                    <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="datanascimento" class="form_label">Data de Nascimento</label>
+                    <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
+                </div>        
+
+                <div class="form_grupo">
+                    
+                    <label for="estadocivil" class="text">Estado civil</label>
+                    <select name="estadocivil" class="dropdown" required>
+                        
+                        <option selected disabled class="form_select_option" value="">Selecione</option>
+                        <option value="Solteiro" class="form_select_option">Solteiro(a)</option>
+                        <option value="Casado" class="form_select_option">Casado(a) </option>
+                        <option value="Divorciado" class="form_select_option">Divorciado(a)</option>                    
+                        <option value="Viúvo" class="form_select_option">Viúvo(a)</option>                    
+                    
+                    </select>
+
+                </div>
+
+                <div class="form_grupo">
+
+                    <span class="legenda">Sexo:</span>
+                    
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
+                        <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+                    </div>
+
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
+                        <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label>
+                    </div>
+
+                </div>
+              
+
+                <div class="form_grupo">
+
+                    <span class="legenda">Você quer aprender o que ?</span>
+
+                    <div class="check-btn">
+                        <input type="checkbox" class="form_new_input" id="html5" name="aprender" value="html5">
+                        <label for="html5" class="form_label check_label"> <span class="check_new_btn"></span> Html5</label>
+                    </div>
+
+                    <div class="check-btn">
+                        <input type="checkbox" class="form_new_input" id="css3" name="aprender" value="css3">
+                        <label for="css3" class="form_label check_label"><span class="check_new_btn"></span> Css3</label>
+                    </div>
+
+                    <div class="check-btn">
+                        <input type="checkbox" class="form_new_input" id="jquery" name="aprender" value="jquery">
+                        <label for="jquery" class="form_label check_label"><span class="check_new_btn"></span> jQuery</label>
+                    </div>
+
+                    <div class="check-btn">
+                        <input type="checkbox" class="form_new_input" id="wordpress" name="aprender" value="wordpress">
+                        <label for="wordpress" class="form_label check_label"><span class="check_new_btn"></span> WordPress</label>
+                    </div>
+                    
+
+                    <div class="form_message">
+                        
+                        <label for="message" class="form_message_label"> Digite aqui sua sua mensagem:</label>
+                        <textarea name="mensagem" id="message" cols="30" rows="3" class="form_input message_input" required></textarea>
+
+                    </div>
+
+                    <div class="submit">
+
+                      <input type="hidden" name="acao" value="enviar">
+                      <button type="submit" name="Submit" class="submit_btn"
+                    data-bs-toggle="popover" 
+                    title="Click para cadastrar"
+                    data-bs-content="Espaço de edição"
+                    data-bs-placement="right"
+                    data-bs-trigger="focus" >Cadastrar</button>
+                    
+                    </div>
+            </form>
+
+    </div><!--container_form-->
+
+    </body>
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+
+    </script>
+    </html>
