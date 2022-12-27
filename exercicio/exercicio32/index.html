@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Link para Chamada</h1>
+
+<script>
+
+function minhafuncao() {
+	alert ('Teste JS')
+}
+
+</script>
+
+<a href="JavaScript:minhafuncao()">clique </a>
+
+<h1>JavaScript Passando Argumentos</h1>
+
+<script>
+
+function minhafuncao1(arg) {
+	alert (arg);
+}
+
+</script>
+<a href="JavaScript:minhafuncao1('Argumentos 01')">clique </a>
+
+<h1>JavaScript Passando Argumentos numéricos</h1>
+
+<script>
+
+function minhafuncao2(arg1,arg2) {
+	alert (arg1+arg2);
+}
+
+</script>
+<a href="JavaScript:minhafuncao2(10,20)">clique </a>
+
+<h1>JavaScript Variaveis</h1>
+
+<script>
+
+function minhafuncao3(arg1,arg2) {
+	var soma = (arg1 + arg2);
+	alert('A soma é igual a '+soma);
+}
+
+</script>
+<a href="JavaScript:minhafuncao3(30,40)">clique </a>
+
+<h1>JavaScript concatenação</h1>
+
+<script>
+
+function minhafuncao4(arg1,arg2) {
+	var soma = (arg1 + arg2);
+	var msg = 'A soma é igual a';
+	alert(msg + soma);
+}
+
+</script>
+<a href="JavaScript:minhafuncao4(10,20)">clique </a>
+
+<h1>JavaScript Mais Testes</h1>
+
+<script>
+
+function minhafuncao5(arg1,arg2) {
+	var soma = arg1 + arg2;
+	var msg = 'A soma é igual a';
+	alert(msg + soma);
+	var flag = true;
+	
+	if (flag)
+	alert('verdadeiro')
+	else
+	alert('Falso')
+}
+
+</script>
+<a href="JavaScript:minhafuncao5(10,20)">clique </a>
+
+<h1>JavaScript Metodo Math.sqr Raiz quadrada de "9"</h1>
+
+<p id="demo"></p>
+
+<script>
+
+document.getElementById("demo").innerHTML = Math.sqrt(9);
+
+
+</script>
+
+
+
+</body>
+</html>
