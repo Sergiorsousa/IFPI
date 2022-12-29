@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Trabalho Diferença Entre Duas Datas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Adicionando JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Adicionando Javascript -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+                                               
+            $("#difData").click(function () {
+                var miData = $("#miData").val();
+                var subData = $("#subData").val();
+                var url = `http://zpfvzz.hospedagemelastica.com.br/netlab/admin/admin.datadiferenca.logic?string=${miData};${subData}`;
+                $.getJSON(url, function (retorno) {
+                    if (!("erro" in retorno)) {
+                        //Atualiza os campos com os valores da consulta.
+                        $("#difer").val(retorno.diferenca);
+                    } //end if.
+                    else {
+                        alert("Erro");
+                    }
+                });
+            });
+
+          }); 
+
+    </script>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+    <!-- Inicio do formulario -->
+   
+    <div>
+        <hr>
+        <h1>Data Diferença</h1>
+        <div>Recebe duas datas no formato dd/mm/aaaa. Retorna a diferença em dias entre a duas datas.</div>
+
+        <div>URL Exemplo:<a target="_blank"
+                href="http://zpfvzz.hospedagemelastica.com.br/netlab/admin/admin.datadiferenca.logic?string=21/12/2022;21/01/2023">
+                http://zpfvzz.hospedagemelastica.com.br/netlab/admin/admin.datadiferenca.logic?string=21/12/2022;21/01/2023</a>
+        </div>
+
+        <div>Onde 21/12/2022 e 21/01/2023 são os parâmetros passados separados por ; </div>
+        <br>
+
+        <label><strong>Entre com a data Inicial:</strong>
+            <input type="text" id="miData" placeholder="dd/mm/aaaa" size="10" maxlength="10" />
+        </label>
+        <label><strong>Entre com a data final:</strong>
+            <input type="text" id="subData" placeholder="dd/mm/aaaa" size="10" maxlength="10" />
+        </label>
+        <button class="btn btn-primary" id="difData"><i class="fa-solid fa-hand-pointer"></i>Clique aqui para obter a diferença</button>
+        <br />
+        <hr>
+        <label><strong> Diferença em dias:</strong><br />
+        <input name="difer" type="text" id="difer"/></label><br />
+    </div>
+
+   
+    <br><br>
+
+
+    </div>
+</body>
+
+</html>
